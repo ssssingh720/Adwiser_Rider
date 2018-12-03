@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/monitor_site_view"
+            android:icon="@drawable/ic_site_master"
+            android:title="@string/my_site_view_monitor" />
+
+        <item
+            android:id="@+id/monitor_sync_site_data"
+            android:icon="@drawable/ic_sync_black_24dp"
+            android:title="@string/sync_site_data" />
+
+        <!--<item-->
+        <!--android:id="@+id/my_profile_view"-->
+        <!--android:icon="@drawable/ic_profile"-->
+        <!--android:title="@string/my_profile_view" />-->
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />
+
+    </group>
+</menu>
+
+

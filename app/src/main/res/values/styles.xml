@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="DialogSlideAnim" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style>
+
+    <style name="DialogAnimation">
+    <item name="android:windowEnterAnimation">@anim/slideup</item>
+    <item name="android:windowExitAnimation">@anim/slidedown</item>
+    </style>
+
+    <style name="DialogUserAccessAnim" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@style/DialogAccessAnimation</item>
+    </style>
+
+    <style name="DialogAccessAnimation">
+        <item name="android:windowEnterAnimation">@anim/user_access_down</item>
+        <item name="android:windowExitAnimation">@anim/user_access_up</item>
+    </style>
+
+</resources>

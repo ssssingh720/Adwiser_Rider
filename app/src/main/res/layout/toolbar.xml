@@ -1,0 +1,78 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/navigation_bg"
+    local:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtPageHeader"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imgMapView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_map"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imgListView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_listing"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/img_profile_type"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_group"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/iv_sync_data"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:src="@drawable/ic_sync_black_24dp"
+            android:visibility="visible" />
+
+
+        <!--<ImageView-->
+        <!--android:id="@+id/iv_delete_product"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginEnd="10dp"-->
+        <!--android:src="@drawable/trash"-->
+        <!--android:visibility="gone" />-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/imgNotification"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginEnd="10dp"-->
+        <!--android:src="@drawable/notification"-->
+        <!--android:visibility="visible" />-->
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>
